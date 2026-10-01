@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Truck, Navigation, Plus, Trash2, ShieldAlert, Award, Compass } from 'lucide-react';
+import { Navigation, Plus, Trash2, ShieldAlert, Award, Compass } from 'lucide-react';
+
 
 export default function App() {
   const [deliveries, setDeliveries] = useState(() => {
